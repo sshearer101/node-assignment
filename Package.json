@@ -8,7 +8,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/sshearer101/node-assignment"
+      "url": "https://github.com/sshearer101/node-assignment.git"
     },
     "dependencies": {
       "express": "~3.0.1",
@@ -19,5 +19,8 @@
       "angular-ui-router": "~0.2.11",
       "path": "latest",
       "dat-gui": "latest"
-    }
+    },
+    "scripts": {
+        "start": "node server.js"
+      }
   }
